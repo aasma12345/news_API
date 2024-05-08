@@ -1,0 +1,171 @@
+
+
+.hr{
+  margin-bottom: 5px;
+  margin-top:5px;
+  font-weight: bold;
+  border-top: 2px solid black;
+  
+}
+
+.header-text{
+  font-size:85px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family:  "Iowan Old Style";;
+}
+
+@media (max-width: 576px) {
+  .header-text {
+    font-size: 40px; 
+}
+}
+
+.imge {
+  height: 60px;
+  width: 60px;
+  margin-bottom:20px;
+}
+@media (max-width: 576px) {
+  .imge{
+      height: 25px;
+      width: 25px;
+      margin-bottom: 10px;
+  }
+}
+.ellipse-img{
+  margin-bottom: 3px;
+}
+
+.button-container {
+  background: #E84848;
+  color:white;
+  height:60px;
+  width:61px;
+  padding: 17px 16px;
+  font-size: 20px;
+  border: none;
+  font-family: "Iowan Old Style";
+}
+.search-bar{
+  width:267px;
+  height:60px;
+  font-size: 20px;
+  background-image: url("/Frame.png");
+  padding-left: 35px;
+  background-repeat:no-repeat;
+  background-position:left;
+  font-family:"Iowan Old Style";
+  outline: none;
+  border: 1px solid rgba(60, 48, 48, 0.30);
+}
+
+
+.footer-text {
+  font-size: 16px;
+  
+}
+@media (max-width: 576px) {
+  .footer-text {
+    font-size: 12px; 
+  }
+}
+
+@media (min-width: 990px) {
+  .br {
+    display: none; 
+  }
+}
+
+
+.header-text{
+  text-align: center;
+  
+}
+
+.search-box{
+  margin-top:74px;
+  display:flex;
+  justify-content:center;
+  margin-top:59px;
+  margin-bottom: 89px;
+  border:none;
+
+}
+
+.footer-row{
+  font-family: "Iowan Old Style"; 
+  text-align: center;
+  height: 136px;
+  padding-top: 57px;
+  border-top: 2px solid #3C3030;
+}
+
+.data-img{
+  width:100%;
+  margin-bottom:16px;
+  
+}
+.data-title{
+  color:#3C3030;
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 120%;
+}
+.data-discription{
+  color: #3C3030;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 0px;
+}
+.read-more{
+  float:left;
+  margin-bottom: 50px;
+}
+
+.top{
+  color: var(--Dark-Red, #D02424);
+  font-family: "Inria Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom:15px;
+}
+
+.column{
+  margin-bottom: 0px;
+}
+@media(max-width:576px){
+  .column{
+    margin-bottom: 20px;
+  }
+}
+
+.arrow{
+  float:left;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
